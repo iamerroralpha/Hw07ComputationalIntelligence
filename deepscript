@@ -1,0 +1,11 @@
+figure
+hold on
+for i = -1 : 0.1 : 1
+    for j = -1: 0.1:1
+        if deepnetworks([i;j])
+            print(i,j,'rx')
+        else
+            print(i,j,'bx')
+        end
+    end
+end

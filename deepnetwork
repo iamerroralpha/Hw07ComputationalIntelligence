@@ -1,0 +1,17 @@
+p=[0,1]';
+
+W1 = [0,1];
+b1 = 0.75;
+a1 = perceptron(p,W1,b1)
+
+W2 = [0,1];
+b2 = 0.75;
+a2 = perceptron(p,W2,b2)
+
+W3 = [0,1];
+b3 = 0.75;
+a3 = perceptron(p,W3,b3)
+
+W4 = [0,1];
+b4 = 0.75;
+a4 = perceptron(p,W4,b4)
